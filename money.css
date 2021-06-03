@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccffff;
+    font-family: 'Anton', sans-serif;
+    color:  #00001a;
+
+}
+.container{
+    max-width: 1000px;
+    background-color: #00ffff;
+    margin: 0 auto;
+    padding: 18px;
+}
+.image{
+    width: 120px;
+    height: 130px;
+    border: 3px solid whitesmoke;
+    border-radius: 60%;
+    float: left;
+}
+.tutorial{
+    float: left;
+    padding: 35px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:  #003333;
+}
+.tutorial-1{
+    float: right;
+    padding: 35px;
+}
+
+.tutorial-1 a{
+    text-decoration: none;
+    color: midnightblue;
+    font-weight: bold;
+
+}
+.tutorial-1 a:hover{
+    text-decoration: underline;
+    color:  #ff0040;
+    background-color:  #001975;
+
+}
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 10px auto;
+    border-bottom: none;
+
+}
+
+
+#personal{
+
+}
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+
+}
+
+.common-hr{
+    border: black solid 2px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.right-div ul{
+    list-style-image: url("image/sunflower.png");
+}
+
+ul:hover{
+    background-color: #66ff33;
+    padding: 10px;
+}
+
+.edu-template-left{
+    width: 45%;
+    float: left;
+
+}
+.edu-template-right{
+    width: 45%;
+    float: right;
+
+
+}
+.samio{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+
+}
+.samio a{
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: 15px;
+}
+.samio p{
+    color: blanchedalmond;;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+a:hover{
+    background-color: 	#e699ff;
+    color: 	 #009999;
+    text-decoration: underline;
+    padding: 6px;
+}
